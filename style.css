@@ -260,5 +260,45 @@
 
 
 @media screen and (max-width: 768px) {
-  
+  .text-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-evenly;
+  }
+  .nav-style
+  {
+    visibility: hidden;
+    overflow: hidden;
+    display: none;
+  }
+
+  .sponsor-section
+  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-evenly;
+  }
+  .services-container
+  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-evenly;
+  }
+  .about-section-main
+  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-evenly;
+  }
+  .footer-all-section
+  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-evenly;
+  }
+  .img-fluid-b
+  {
+    padding: 0px;
+  } 
+
 }
